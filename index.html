@@ -365,7 +365,6 @@
     <div class="popup-modal">
       <div class="popup-headline">Cleared!</div>
       <div class="popup-btns">
-        <a class="popup-btn cta" href="https://start.gametize.com/" target="_blank" rel="noopener">Explore Gametize</a>
         <button class="popup-btn outline" id="restartBtn">Restart</button>
       </div>
     </div>
@@ -1042,7 +1041,6 @@
     }
     // Example: Uncomment to test popup
     // showLevelClearedPopup();
-    document.querySelectorAll('.popup-btn.cta').forEach(btn => btn.onclick = hideLevelClearedPopup);
     document.querySelectorAll('.popup-btn.outline').forEach(btn => btn.onclick = hideLevelClearedPopup);
 
     function resetGame() {
